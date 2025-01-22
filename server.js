@@ -96,7 +96,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['https://crypto-price-tracker-client.vercel.app', 'http://localhost:5173'],
+  origin: ['https://crypto-price-tracker-client.vercel.app', 'http://localhost:5175'],
   credentials: true
 }));
 app.use(express.json());
